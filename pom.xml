@@ -1,17 +1,12 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.influxdb</groupId>
+	<groupId>patchpump.influxdb</groupId>
 	<artifactId>influxdb-java</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0-SNAPSHOT</version>
+	<version>2.0-PATCHPUMP-R0</version>
 	<name>influxdb java bindings</name>
 	<description>Java API to access the InfluxDB REST API</description>
 	<url>http://www.influxdb.org</url>
@@ -32,9 +27,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:influxdb/influxdb-java.git</connection>
-		<developerConnection>scm:git:git@github.com:influxdb/influxdb-java.git</developerConnection>
-		<url>git@github.com:influxdb/influxdb-java.git</url>
+		<connection>scm:git:git@github.com:patchpump/influxdb-java.git</connection>
+		<developerConnection>scm:git:git@github.com:patchpump/influxdb-java.git</developerConnection>
+		<url>git@github.com:patchpump/influxdb-java.git</url>
 	</scm>
 
 	<developers>
@@ -47,6 +42,10 @@
 			<id>majst01</id>
 			<name>Stefan Majer</name>
 			<email>stefan.majer@gmail.com</email>
+		</developer>
+		<developer>
+			<id>patchpump</id>
+			<name>patchpump</name>
 		</developer>
 	</developers>
 

@@ -30,9 +30,9 @@ import com.github.dockerjava.core.DockerClientConfig;
 @Test
 public class InfluxDBTest {
 
-	private InfluxDB influxDB;
-	private DockerClient dockerClient;
-	private CreateContainerResponse container;
+	protected InfluxDB influxDB;
+	protected DockerClient dockerClient;
+	protected CreateContainerResponse container;
 
 	/**
 	 * Create a influxDB connection before all tests start.
